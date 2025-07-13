@@ -43,3 +43,13 @@ Copy
 Edit
 docker build -t picture-api .
 docker run -p 5000:5000 picture-api
+
+.
+├── backend/
+│   └── routes.py          # API route logic
+│   └── pictures.json      # Picture data store
+├── tests/                 # pytest-based test suite
+├── Dockerfile             # Container configuration
+├── app.py                 # Entry point
+├── requirements.txt       # Python dependencies
+└── README.md              # This file
